@@ -1,0 +1,5 @@
+Num = int(input())
+ha=int(input())
+Sa=float(input())
+print("NUMBER = "+str(Num))
+print("SALARY = U$ %.2f" %(ha*Sa))
