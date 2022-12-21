@@ -115,7 +115,7 @@ class cp1:
         print(f'{distance*2} minutos')
 
     def cp1017():
-        t = int(input())
+        t = int(input()) 
         v = int(input())
 
         liters = (v*t)/12
@@ -137,6 +137,102 @@ class cp1:
         print("{} nota(s) de R$ 2,00".format(int(note/2)))
         note = (note%2)
         print("{} nota(s) de R$ 1,00".format(int(note/1)))
+
+    def cp1019():
+        N = int(input())
+        print("{}:{}:{}"
+        .format(int(N/3600),
+        int(N%3600/60),
+        int(N%60)))    
+
+    def cp1020():
+        days = int(input())
+
+        years = int(days/365)
+        days %= 365
+
+        months = int(days/30)
+        days %= 30
+
+        print(f'{years} ano(s)')
+        print(f'{months} mes(es)')
+        print(f'{days} dia(s)')
+
+    def cp1021():
+        A=float(input())
+        N=A
+        a=N/100
+        b=N%100
+        c=b/50
+        d=b%50
+        e=d/20
+        f=d%20
+        g=f/10
+        h=f%10
+        i=h/5
+        j=h%5
+        k=j/2
+        l=j%2
+
+        E=A*100
+        B=(int(E))
+        m=B%100
+        n=m/50
+        o=m%50
+        p=o/25
+        q=o%25
+        r=q/10
+        s=q%10
+        t=s/5
+        u=s%5
+        print("NOTAS:")
+        print(f"{int(a)} nota(s) de R$ 100.00")
+        print(f"{int(c)} nota(s) de R$ 50.00")
+        print(f"{int(e)} nota(s) de R$ 20.00")
+        print(f"{int(g)} nota(s) de R$ 10.00")
+        print(f"{int(i)} nota(s) de R$ 5.00")
+        print(f"{int(k)} nota(s) de R$ 2.00")
+        print(f"MOEDAS:")
+        print(f"{int(l)} moeda(s) de R$ 1.00")
+        print(f"{int(n)} moeda(s) de R$ 0.50")
+        print(f"{int(p)} moeda(s) de R$ 0.25")
+        print(f"{int(r)} moeda(s) de R$ 0.10")
+        print(f"{int(t)} moeda(s) de R$ 0.05")
+        print(f"{int(u)} moeda(s) de R$ 0.01")
+
+    def cp1035():
+        a, b, c, d = map(int, input().split())
+
+        if b > c and d > a and (c+d) > (a+b) and c > 0 and d > 0 and a % 2 == 0:
+            print("Valores aceitos")
+        else:
+            print("Valores nao aceitos")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 license="""MIT License
