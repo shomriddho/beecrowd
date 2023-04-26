@@ -11,4 +11,5 @@ elif (X == 5):
     price  = (float) (1.50 * Y)
 print(f"Total: R$ {price:.2f}")
 
+# done
 
