@@ -10,7 +10,6 @@
 # print(stringrt)
 # # print(stringrt)
 
-
 while True:
     try:
         sentence = input()
@@ -28,3 +27,14 @@ while True:
         print(dancing_sentence)
     except EOFError:
         break
+# stringrt="This"
+# num = 10
+
+# stringrt = stringrt.upper()
+# for i in range(len(stringrt)):
+    
+#     if i%2!=0:
+#         stringrt[3] =stringrt.lower()
+        
+# print(stringrt)
+# # print(stringrt)
